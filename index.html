@@ -1,17 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>The Path to Success</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pudds Photography Museum</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Rubik', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #e0dfdc;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 3px solid #ccc;
+    }
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      text-align: center;
+      background: #d4d4d4;
+      padding: 1rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #000;
+    }
+    .intro {
+      text-align: center;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .intro img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .intro h2 {
+      margin-bottom: 0.5rem;
+    }
+    .intro p {
+      font-size: 1rem;
+      color: #555;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #e0dfdc;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+    }
+    footer a {
+      text-decoration: none;
+      color: #555;
+      margin: 0 0.5rem;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎨 The Path to Success: Achieving Your Career Dreams 🐾</h1>
-        <p>Hello! Welcome to my personal journey to becoming a creative Graphic Designer.</p>
-        <img src="images/cat_pixel.png" alt="Cute Cat" class="cat-img">
-        <a href="steps.html" class="button">Start</a>
-    </div>
+
+<header>
+  <h1>Puddin Photography Museum</h1>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#inspiration">Gallery</a>
+  <a href="#about">About</a>
+  <a href="mailto:muhdamir0618@gmail.com">Contact</a>
+</nav>
+
+<section class="intro" id="about">
+  <img src="https://i.imgur.com/RYp718k.jpeg" alt="Pudds">
+  <h2>Hi, I'm Puddin 🖤</h2>
+  <p>I'm an aspiring photographer with a passion for capturing moments that feel like memories frozen in time. My goal is to share emotion, mood, and stories through minimal and honest visuals.</p>
+</section>
+
+<section class="gallery" id="gallery">
+  <img src="https://i.imgur.com/QlGXaDs.jpeg" alt="Artwork 1">
+  <img src="https://i.imgur.com/3s2P9In.jpeg" alt="Artwork 2">
+  <img src="https://i.imgur.com/VzDZsqN.jpeg" alt="Artwork 3">
+  <img src="https://i.imgur.com/iLRbiqz.jpeg" alt="Artwork 4">
+  <img src="https://i.imgur.com/MmyT2Va.jpeg" alt="Artwork 5">
+  <img src="https://i.imgur.com/fouqDwJ.jpeg" alt="Artwork 6">
+</section>
+
+<footer>
+  <p>© 2025 Pudds Photography. Find me on 
+    <a href="https://www.instagram.com/ammiiirrrr__/">Instagram</a> | 
+    <a href="https://github.puddin18.com">GitHub</a>
+  </p>
+</footer>
+
 </body>
 </html>
